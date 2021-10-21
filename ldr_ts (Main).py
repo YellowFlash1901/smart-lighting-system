@@ -5,7 +5,7 @@ import urllib2
 from time import sleep
 
 # Enter Your API key here
-myAPI = 'Your-Write-API-Key' 
+myAPI = 'H52SF0MWWPEE6TOV' 
 # URL where we will send the data, Don't change it
 baseURL = 'https://api.thingspeak.com/update?api_key=%s' % myAPI 
 
