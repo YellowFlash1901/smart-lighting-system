@@ -21,7 +21,7 @@ try:
             p=p+LDR(11,13)
         p_avg = p/5
 
-        if p_avg > 500:
+        if p_avg > 30:
             GPIO.output(18, GPIO.HIGH)
             GPIO.output(15, GPIO.HIGH)
             GPIO.output(16, GPIO.HIGH)
